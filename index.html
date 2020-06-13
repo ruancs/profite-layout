@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    
+    <title>profite</title>
+</head>
+<body style="background-color:white">
+    <header>
+        <div class="container">
+            <div class="row row-cols-3">
+                <div class="col">
+                    <nav class="navbar navbar-white bg-white">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo1.png " width="150px">
+                        </a>            
+                    </nav>
+                </div>
+                <div class="col">
+                    <input type="text" value="" id="procura" placeholder="O que está procurando?">
+                   <button class="btn btn-default">
+                    <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                      </svg>
+                   </button>          
+                </div>
+
+                <div class="col-md" id="col3">
+                   <p><svg class="bi bi-person-circle" width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                        <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+                      </svg>  Minha Conta</p>
+                      <img src="img/BR.png">
+                      <img src="img/ES.png">
+                      <img src="img/GB.png">                   
+                </div>
+            </div>
+        </div>
+        
+
+    </header>
+    
+
+            <div class="single-item">
+                <div> Nossa Especialidade:</br>Experiência de compra.
+                    <img src="ecommerce.jpg" width="750px" id="ecomerce">
+                    
+                </div>
+                <div>slide2</div>
+                
+                <div >slide 3</div>
+            </div>
+
+    
+
+
+    
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    
+      <script type="text/javascript">
+       
+       $('.single-item').slick({
+        dots:true,
+        arrows:true,
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+      </script>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
