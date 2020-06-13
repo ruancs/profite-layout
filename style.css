@@ -18,12 +18,15 @@ input:focus {
 }
 
 #col3{
-    margin: 1.3em;
-    
+	margin: 1.3em;
+	    
 }
+
 p{
-    font-size: smaller;
+	font-size: smaller;
+	display: inline;
 }
+
 
 #slick-slide00{
 	width: 5em;
@@ -75,4 +78,10 @@ p{
 	margin-left: 12em;
 	
 	margin-top: -6em;
+}
+
+#bandeiras{
+	display:inline;
+	margin-left: 2em;
+	 
 }
