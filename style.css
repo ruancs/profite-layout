@@ -9,6 +9,18 @@
 	width: 16em;
 	height: 30px;
 }
+nav{
+	display: block;
+}
+.navbar {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+  }
+
 input:focus {
     outline: none;
 }
@@ -18,8 +30,15 @@ input:focus {
 }
 
 #col3{
-	margin: 1.3em;
+	margin: 1em;
 	    
+}
+a {
+	text-decoration: none;
+}
+
+#person{
+	margin-top: em;
 }
 
 p{
@@ -84,4 +103,19 @@ p{
 	display:inline;
 	margin-left: 2em;
 	 
+}
+
+.btn-default{
+	display: inline;
+	margin-left: -3em;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	background-color: transparent;
+}
+.btn:hover{
+	place-content: pesquisar;
+	background-color:transparent;
+	
 }
