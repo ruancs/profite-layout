@@ -1,4 +1,4 @@
 # Layout responsivo Profit-E
 <i>...em produção </i>
 
-https://github.com/ruancs/profite-layout/issues/1#issue-639443050
+![Desktop](https://user-images.githubusercontent.com/19825224/84745947-aadac380-af8b-11ea-9c28-0c72ad656585.png)
