@@ -42,7 +42,7 @@ a {
 	margin-top: em;
 }
 
-p{
+#conta{
 	font-size: smaller;
 	display: inline;
 }
@@ -141,21 +141,6 @@ p{
 	
 }
 
-
-@media(max-width: 1024px){
-	#col3{
-		display: none !important;
-	}	
-
-	#search{
-		display: block!important;
-	}
-}
-
-#cart{
-	display: flexbox;
-}
-
 #num{
 	display: inline-block;
 	text-align: center;
@@ -163,8 +148,81 @@ p{
 	height: 20px;
     width: 20px;
 	font-weight: 800;
-	padding: 2px;
+	padding: 1px;
 	border-radius: 50%;
 	
 	background-color: #2EC4B6;
+}
+
+@media(max-width: 1024px){
+
+	.navbar{
+		padding:30px;
+	}
+
+	#line2{
+		display: none;
+	}
+
+	#conta{
+		display: none !important;
+	}	
+
+	#search{
+		position: absolute;	
+		display: block!important;
+		margin-top: 3em;
+		margin-left: 55%;
+		transform: translateX(-50%);
+	
+	}
+
+	#bandeiras{
+		display: none;
+	}
+
+	.navbar-brand{
+		position: absolute;
+		display: block;		
+		margin-left: 50%;
+		transform: translateX(-50%);	
+	}
+
+	#logo{
+		width: 90px;
+	}
+
+	.bi-cart3{
+		position: absolute;
+		margin-top: -2em;
+		margin-left: 45%;
+	}
+	
+	#num{
+		position: absolute;
+		margin-left: 48.4%;
+		margin-top: 6px;
+	}
+
+}
+
+@media(max-width: 768px){
+	.container{
+		margin-top:-1em;
+		padding-bottom: 20px!important;
+	}
+
+	.collapse{
+		display: block;
+	}
+
+	.bi-cart3{
+		margin-left: 40%;
+		display: block !important;
+		position: absolute !important;
+	}
+
+	#num{
+		margin-left:45.4%;
+	}
 }
