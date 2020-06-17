@@ -60,6 +60,14 @@ a {
 	font-size: 3em;
 }
 
+.slick-dots li button:before {
+	top:-30px !important;
+	font-size:10px !important;
+	color:#FF9F1C !important;	
+    
+}
+
+
 #line{
 	
 	width: 65px;
@@ -72,7 +80,7 @@ a {
 	position: absolute;
 	width: 30px;
 	height: 0px;	
-	left: 869px;
+	left: 900px;
 	top: 38px;
 	border: 1px solid #7A7A7A;
 	transform: rotate(90deg);
@@ -113,9 +121,8 @@ a {
 
 #ecomerce{
 	display: block;
-	position: absolute;
-	margin-left: 12em;
-	
+	position: relative;
+	margin-left: 15%;	
 	margin-top: -6em;
 }
 
@@ -154,7 +161,44 @@ a {
 	background-color: #2EC4B6;
 }
 
+#produtos{
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 2em;
+	padding-left: 3em;
+	font-weight: 500;
+}
+
+.navbar-collapse{
+	padding-left: 6em;
+
+}
+
+#line3{
+	position:relative;
+	margin-left:6em;
+	width:50px;
+	margin-top:-1em;
+	margin-bottom: 1em;
+	border: 3px solid #FF9F1C;
+	
+}
+
+
+
+
 @media(max-width: 1024px){
+
+	#ecomerce{
+		display:none;
+	}
+
+	#slick-slide00{
+		background-image: url(/profite-layout/ecommerce.jpg) !important;
+		background-size: 100%;
+		background-repeat:no-repeat;
+		
+
+	}
 
 	.navbar{
 		padding:30px;
@@ -206,7 +250,44 @@ a {
 
 }
 
+
 @media(max-width: 768px){
+
+	#ecomerce{
+		display:none;
+	}
+
+	/*--alinhando itens no slick*/
+
+	#slick-slide00{
+		padding-left: 1em;
+		text-align: 200px;
+		background-image: url(/profite-layout/ecommerce.jpg) !important;
+		background-size: 180%;
+		background-repeat: no-repeat;
+	}	
+	#slick-slide01{
+		padding-left: 1em;
+	}
+
+	#slick-slide02{
+		padding-left: 1em;
+	}
+
+	/*------------*/
+
+	
+	.navbar-brand{
+		position: absolute !important;
+		display: block !important;		
+		margin-left: 47% !important;
+		transform: translateX(-50%) !important;	
+	}
+
+	#logo{
+		width: 90px;
+	}
+
 	.container{
 		margin-top:-1em;
 		padding-bottom: 20px!important;
