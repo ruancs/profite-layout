@@ -180,7 +180,45 @@ a {
 	margin-top:-1em;
 	margin-bottom: 1em;
 	border: 2px solid #FF9F1C;
-	
+}
+
+.footercolor{
+	font-family:'Balsamiq Sans', cursive;
+	color:white;
+	font-size: 2em;
+	background-color:#011627;
+}
+
+h2{
+	font-size: 0.5;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	font-weight: 500;
+}
+
+h3{
+	margin-left:2em;
+}
+
+h5{
+	margin-top: -0.5em;
+	margin-left:3.5em;
+	font-weight: normal;
+}
+
+#line4{
+	position:relative;
+	margin-left:1.7em;
+	width:50px;
+	margin-top:-1.2em;
+	margin-bottom: 1em;
+	border: 2px solid #FF9F1C;
+}
+
+#rj{
+	position: absolute;
+	margin-top: -4.2em;
+	margin-left: 8em;
 }
 
 
@@ -216,7 +254,7 @@ a {
 		position: absolute;	
 		display: block!important;
 		margin-top: 3em;
-		margin-left: 55%;
+		margin-left: 51%;
 		transform: translateX(-50%);
 	
 	}
@@ -239,12 +277,12 @@ a {
 	.bi-cart3{
 		position: absolute;
 		margin-top: -2em;
-		margin-left: 45%;
+		margin-left: 35%;
 	}
 	
 	#num{
 		position: absolute;
-		margin-left: 48.4%;
+		margin-left: 38%;
 		margin-top: 6px;
 	}
 
@@ -288,7 +326,7 @@ a {
 		width: 90px;
 	}
 
-	.container{
+	.carousel2{
 		margin-top:-1em;
 		padding-bottom: 20px!important;
 	}
