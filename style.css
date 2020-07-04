@@ -221,6 +221,26 @@ h5{
 	margin-left: 8em;
 }
 
+#legenda-tenis{
+	margin-top: 1em;
+	font-family: 'Balsamiq-sans';
+}
+
+#price-bf{
+	margin-left: 27%;
+	text-decoration: line-through;
+}
+
+#price-af{
+	margin-top:-10px;
+	color:#2EC4B6;
+	margin-left:17%;
+	font-size: 1.5em;
+}
+#parcel{
+	margin-top:-10px;
+	margin-left:14%;
+}
 
 
 
@@ -231,7 +251,8 @@ h5{
 	}
 
 	#slick-slide00{
-		background-image: url(/profite-layout/ecommerce.jpg) !important;
+		
+		background-image: url(/ecommerce.jpg)!important;
 		background-size: 100%;
 		background-repeat:no-repeat;
 		
@@ -300,7 +321,7 @@ h5{
 	#slick-slide00{
 		padding-left: 1em;
 		text-align: 200px;
-		background-image: url(/profite-layout/ecommerce.jpg) !important;
+		background-image: url(/ecommerce.jpg) !important;
 		background-size: 180%;
 		background-repeat: no-repeat;
 	}	

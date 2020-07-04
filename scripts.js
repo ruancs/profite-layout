@@ -14,3 +14,16 @@ $('.single-item').slick({
  slidesToShow: 4,
  slidesToScroll: 4
 });
+
+$('.slick-slide', '.carousel2').hover(
+    function(){
+        $(this).css("background-color", "#F2F2F2");
+    }
+)
+
+$('.slick-slide').mouseout(
+    function(){
+        $(this).css("background-color", "none");
+    }
+)
+
