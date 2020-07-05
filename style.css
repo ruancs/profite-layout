@@ -115,10 +115,29 @@ a {
 	
 }
 
-.slick-prev{
-	display:block;
+.slick-next:before {
+    content: ">" !important;
+    color: black!important;
+    font-size: 40px;
+    font-weight: 800 !important;
+    transform: matrix(1, 0, 0, 2, 1, 9);
+    width: 13px;
+    height: 22px;
+	position: absolute;
 }
-
+  
+.slick-prev:before{
+	color:black !important;
+	content:"<" !important;
+	margin-left: -10px;
+    font-size: 40px;
+    font-weight: 800!important;
+    transform: matrix(1, 0, 0, 2, 1, 9);
+    width: 13px;
+    height: 22px;
+	position: absolute;
+	
+}
 #ecomerce{
 	display: block;
 	position: relative;
@@ -252,7 +271,7 @@ h5{
 
 	#slick-slide00{
 		
-		background-image: url(/ecommerce.jpg)!important;
+		background-image: url(ecommerce.jpg)!important;
 		background-size: 100%;
 		background-repeat:no-repeat;
 		
@@ -321,7 +340,7 @@ h5{
 	#slick-slide00{
 		padding-left: 1em;
 		text-align: 200px;
-		background-image: url(/ecommerce.jpg) !important;
+		background-image: url(ecommerce.jpg) !important;
 		background-size: 180%;
 		background-repeat: no-repeat;
 	}	
