@@ -27,3 +27,22 @@ $('.slick-slide').mouseout(
     }
 )
 
+
+
+$('.btn-secondary').mouseover(function(){
+    $(".btn-secondary").css('background-color', '#a36814');
+});
+
+$('.btn-secondary').mouseout(function(){
+    $(".btn-secondary").css('background-color', '#FF9F1C');
+    $(".btn-secondary").css('color', 'white');
+});
+
+$('.btn-primary').mouseover(function(){
+    $(".btn-primary").css('background-color', '#a36814');
+});
+
+$('.btn-primary').mouseout(function(){
+    $(".btn-primary").css('background-color', '#FF9F1C');
+    $(".btn-primary").css('color', 'white');
+});
