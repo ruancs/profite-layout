@@ -111,7 +111,7 @@ a {
 }
 
 .slick-next{
-	margin-right: 35px;
+	margin-right: -15px;
 	
 }
 
@@ -280,6 +280,11 @@ h5{
 	color:white;
 	background-color:#FF9F1C;
 	font-family: 'Ubuntu';
+}
+
+.multiple-items .slick-slide{
+	margin-left: 3em;
+
 }
 
 
