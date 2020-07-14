@@ -1,7 +1,7 @@
 
 $('.single-item').slick({
  dots:true,
- arrows:true,
+ arrows:false,
  infinite: false,
  slidesToShow: 1,
  slidesToScroll: 1
@@ -18,10 +18,11 @@ $('.single-item').slick({
 $('.slick-slide', '.carousel2').hover(
     function(){
         $(this).css("background-color", "#F2F2F2");
+        $(this).css("cursor", "pointer");
     }
 )
 
-$('.slick-slide').mouseout(
+$('.slick-slide', '.carousel2').mouseout(
     function(){
         $(this).css("background-color", "none");
     }
