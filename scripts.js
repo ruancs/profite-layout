@@ -15,14 +15,14 @@ $('.single-item').slick({
  slidesToScroll: 4
 });
 
-$('.slick-slide', '.carousel2').hover(
+$('.slick-slide').mouseover(
     function(){
         $(this).css("background-color", "#F2F2F2");
         $(this).css("cursor", "pointer");
     }
 )
 
-$('.slick-slide', '.carousel2').mouseout(
+$('.slick-slide').mouseout(
     function(){
         $(this).css("background-color", "none");
     }
