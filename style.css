@@ -289,7 +289,20 @@ h5{
 	margin-left: 3em;
 	margin-bottom: 3em;
 	margin-top: 2em;
+	padding-top:2em;
+	height: 30em;
 
+}
+.slick-slide:hover .btn-info{
+	display:block;
+}
+
+.btn-info{
+	display:none;
+	background-color:#2EC4B6;
+	font-family:'Ubuntu';
+	font-size: 1.5em;
+	margin-left: 25%;	
 }
 
 #bar{
