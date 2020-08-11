@@ -465,12 +465,31 @@ h5{
 	}
 
 	.bi-cart3{
-		margin-left: 40%;
+		margin-left: 30%;
 		display: block !important;
 		position: absolute !important;
 	}
 
 	#num{
-		margin-left:45.4%;
+		margin-left:35.4%;
 	}
+
+	.container-fluid{
+		height: 100%;
+	}
+
+	.btn-secondary{
+		
+		margin-top: 2em;
+	}
+
+	.btn-primary{
+		margin-top: 1em;
+	}
+
+	
+
+
+
+
 }
